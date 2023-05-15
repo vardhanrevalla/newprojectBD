@@ -21,6 +21,23 @@ html, body, .container {
   cursor: pointer;
 }
 
+.link-button-2 {
+  width: 150px;
+  height: 40px;
+  border-radius: 0;
+  background: #d44;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  margin: auto;
+  left: 50px;
+  right: unset;
+  top: unset;
+  bottom: 250px;
+  color: transparent;
+  cursor: pointer;
+}
+
 body {
   background: #e74;
   overflow: hidden;

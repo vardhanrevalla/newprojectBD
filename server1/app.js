@@ -77,6 +77,11 @@ app.get('/brighton', (req, res) => {
   res.sendFile(getPage('brighton-html/index'))
 })
 
+app.get('/bd', (req, res) => {
+//   res.sendFile(path.join(__dirname, './pages/index.html'))
+  res.sendFile(getPage('bd/index'))
+})
+
 app.get('/index.html', (req, res) => {
 //   res.sendFile(path.join(__dirname, './pages/index.html'))
     res.sendFile(getPage('brighton-html/index'))

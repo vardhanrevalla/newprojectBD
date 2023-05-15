@@ -12,6 +12,10 @@ window.epic = () => {
   window.location.href = '/brighton'
 }
 
+window.epic = () => {
+  window.location.href = '/bd'
+}
+
 // now we will setup our basic variables for the demo
 var canvas = document.getElementById('canvas'),
 ctx = canvas.getContext('2d'),
