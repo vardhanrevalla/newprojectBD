@@ -12,7 +12,7 @@ window.epic = () => {
   window.location.href = '/brighton'
 }
 
-window.epic = () => {
+window.epic2 = () => {
   window.location.href = '/bd'
 }
 
