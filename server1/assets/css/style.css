@@ -131,7 +131,7 @@ a:focus {
 .navbar-brand span {
   font-size: 24px;
   font-weight: 700;
-  color: #fefdfc;
+  color: #f1f1f0;
   margin-left: 10px;
   text-transform: uppercase;
 }
@@ -156,21 +156,22 @@ a:focus {
   background-image: url(../images/slider-bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  width: 90%;
+  width: 55%;
   margin: 0 auto;
   -webkit-transform: translateY(50px);
           transform: translateY(50px);
-  height: 95%;
+  height: 55%;
   display: -webkit-box;
-  display: -ms-flexbox;
+  display: -ms-firefox1;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-}
+          justify-content: center;
+}a
 
 .slider_section .detail-box {
-  color: #fefdfc;
+  color: #d8c7b6;
 }
 
 .slider_section .detail-box h1 {
@@ -181,13 +182,13 @@ a:focus {
 }
 
 .slider_section .detail-box span {
-  color: #fefdfc;
+  color: #dfc9b4;
   font-size: 3.5rem;
   font-weight: 700;
 }
 
 .slider_section .detail-box p {
-  color: #fefdfc;
+  color: #0c0601;
   margin-top: 25px;
 }
 
