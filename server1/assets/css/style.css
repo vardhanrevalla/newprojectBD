@@ -175,21 +175,30 @@ a:focus {
 }
 
 .slider_section .detail-box h1 {
-  color: #ffff00;
+  color: #ffbf51;
   font-size: 1.8rem;
   text-transform: uppercase;
   font-weight: 400;
+  font-weight: bold;
+  text-shadow: 0 0 4px black;
 }
 
 .slider_section .detail-box span {
-  color: #dfc9b4;
+  color: #ffffff;
   font-size: 3.5rem;
   font-weight: 700;
+  text-shadow: 0px 0px 6px #f700ff;
 }
 
 .slider_section .detail-box p {
-  color: #0c0601;
+  color: #ffffff;
+  font-weight: bold;
   margin-top: 25px;
+  text-shadow: 0 0 6px black;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(5px);
+  padding: 5px;
+  border-radius: 14px;
 }
 
 .slider_section .detail-box .btn-box {
