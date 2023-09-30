@@ -36,3 +36,30 @@ service start jenkins
 services start jenkins
 service jenkins start
 service jenkins status
+apt install git 
+git init
+git  clone https://github.com/vardhanrevalla/newprojectBD.git
+git branch new1
+git branch -r new1
+git branch master
+git branch new
+git remote add origin https://github.com/vardhanrevalla/newprojectBD.git
+git remote origin 
+git remote origin -v
+git push -u origin master
+git status
+git add .
+git commit -m "new version"
+git pull master
+git push master
+git fetch master
+git branch new
+git branch 
+git checkout new
+git ls
+ls
+git status
+git push new
+git
+git push origin
+git push --set-upstream origin new
